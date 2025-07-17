@@ -113,7 +113,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-.mbox{
+.mbox {
   display: flex;
   justify-content: space-around;
   margin-top: 0px;
@@ -129,4 +129,54 @@ body {
   color: rgb(0, 0, 0, 0.5);
   opacity: 0.5;
   font-size: 20px;
+}
+
+/* Form */
+.get-in-touch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row; */
+  margin: 93px 150px 0px 150px;
+  padding: 71px 0px;
+}
+.touch-title {
+  font-size: 97px;
+  font-weight: bold;
+  text-align: left;
+}
+.formm {
+  /* text-align: right; */
+  height: 490px;
+  width: 497px;
+  margin: 71px 0px 71px 0px;
+}
+.formm input {
+  margin-bottom: 19px;
+  margin-top: 10px;
+  width: 497px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 30px;
+  /* padding: 25px  ; */
+}
+.formm textarea {
+  margin-bottom: 19px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 497px;
+  height: 135px;
+  padding: 20px 30px;
+}
+.formm button {
+  margin-bottom: 19px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.formm input,.formm textarea {
+  box-sizing: border-box;
 }
