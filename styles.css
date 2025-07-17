@@ -24,7 +24,9 @@
   font-weight: bold;
   border: none;
 }
-
+.btn-primary:hover{
+    background-color: rgb(5, 226, 5);
+}
 /* Header */
 header {
   background-image: url(Assets/Hero-bg.png);
@@ -180,6 +182,52 @@ form {
 }
 .formm input,.formm textarea {
   box-sizing: border-box;
+}
+/* Users say */
+.users-say{
+  padding: 137px 149px 137px 151px;
+}
+.user-title{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.mcard{
+  display: flex;
+  gap: 20px;
+}
+.card1{
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card1 img{
+   width: 40;
+   height: 40;
+}
+.card-title{
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+
+}
+.review{
+  display: flex;
+  gap: 6px;
+  margin: 24px;
+}
+.img{
+  object-fit: cover;
+  border-radius: 50%;
+}
+.review-form input{
+  color: #B3B3B3 ;
+  border: none;
+}
+.review-form label{
+  color:#757575;
+  font-weight: 600;
 }
 /* footer section  */
 footer{
