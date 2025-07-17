@@ -68,14 +68,15 @@ nav {
   margin-bottom: 37px;
 }
 /* Body */
-body {
+main {
   background-color: #f5f8ff;
 }
 
 /* body action section */
 .action {
   display: flex;
-  margin: 116px 159px 116px 141px;
+  /* margin-top: 116px; */
+  padding: 116px 159px 116px 141px;
   /* gap: 220; */
   justify-content: space-around;
   align-items: center;
@@ -179,4 +180,32 @@ form {
 }
 .formm input,.formm textarea {
   box-sizing: border-box;
+}
+/* footer section  */
+footer{
+  background-color: #ffffff;
+  /* padding: 104px 455px; */
+  align-items: center;
+  text-align: center;
+}
+.footer-div{
+  margin: 104px 455px;
+}
+.logo{
+  font-size: 100px;
+  font-weight: 800;
+}
+.footer-des{
+  color: #8987A1;
+  font-size: 16px;
+}
+.connect-link{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.connect-link a{
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 16px;
 }
